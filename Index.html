@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="./Css/Style.css">
     <title>Pixel</title>
 </head>
 <body>
@@ -42,16 +42,16 @@
                         <h1>Biznesingizni keyingi bosqichga
                             olib chiqing</h1>
                         <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
-                        <button>Xizmatlar bilan tanishish</button>
+                        <a href="#container_box3"><button>Xizmatlar bilan tanishish</button></a>
                     </div>
                     <div class="right">
-                        <iframe width="458" height="258" src="https://www.youtube.com/embed/w4lDHrD_Izo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!-- <iframe width="458" height="258" src="https://www.youtube.com/embed/w4lDHrD_Izo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                     </div>
                 </main>
             </div>
         </div>
 
-        <div class="container_box3">
+        <div id="container_box3">
             <div class="container">
                 <div class="content">
                     <h2>Xizmatlar</h2>
@@ -87,8 +87,8 @@
                     </div>
                 </div>
                 <div class="button">
-                    <button> buyurtma berish</button>
-                    <a href="#">Xizmatlar sahifasiga o’tish</a>
+                    <a href="#container_box5"><button>buyurtma berish</button></a>
+                    <a href="./Pages/Xizmatlar.html">Xizmatlar sahifasiga o’tish</a>
                 </div>
             </div>
         </div>
@@ -142,7 +142,7 @@
             </div>
         </div>
 
-        <div class="container_box5">
+        <div id="container_box5">
             <div class="container">
                 <div class="content">
                     <h3>Buyurtma berish</h3>
@@ -153,6 +153,7 @@
                     <input type="text" id="name" name="name" placeholder="Ismingiz">
                     <input type="text" id="tel" name="tel" placeholder="Telefon raqamingiz">
                     <select name="xiz" id="xiz">
+                        <option value="0">Xizmat turi</option>
                         <option value="1">Sayt tuzish</option>
                         <option value="2">Telegram bot tuzish</option>
                         <option value="3">SMM</option>
@@ -166,8 +167,30 @@
 
         <div class="container_box6">
             <div class="container">
-                <div class="text">
-                    <h1></h1>
+                <div class="main6">
+                    <div>
+                        <h1>Copyright 2020</h1>
+                    <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar tincidunt.</p>
+                    </div>
+                    <div>
+                        <ul class="foot_list">
+                            <h1>Sayt sahifalari</h1>
+                            <li class="list_foot"><a class="foot_link" href="#">bosh sahifa</a></li>
+                            <li class="list_foot"><a class="foot_link" href="#">xizmatlar</a></li>
+                            <li class="list_foot"><a class="foot_link" href="#">portfolio</a></li>
+                            <li class="list_foot"><a class="foot_link" href="#">jamoa</a></li>
+                            <li class="list_foot"><a class="foot_link" href="#">blog</a></li>
+                            <li class="list_foot"><a class="foot_link" href="#">kontaktlar</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="foot_list">
+                            <h1>Biz internetda</h1>
+                            <li class="list_foot"><img src="./Image/telagram.svg" alt=""> <a class="foot_link" href="https://t.me/m1rzo_0727">Telegram</a></li>
+                            <li class="list_foot"><img src="./Image/facebook.svg" alt=""> <a class="foot_link" href="https://t.me/m1rzo_0727">Facebook</a></li>
+                            <li class="list_foot"><img src="./Image/instagram.svg" alt=""> <a class="foot_link" href="https://t.me/m1rzo_0727">Instagram</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
